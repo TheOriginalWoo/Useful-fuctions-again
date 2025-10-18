@@ -6,6 +6,16 @@
 
 A set of useful functions
 
+## How to incoperate and set it up for my other projects
+This goes over how you can setup this module with my other projects that depend on this one
+
+1. Create a json file names **toolspath.json** in the same directory where the main.py of the other project is at.
+2. In it, make a key value pair as follows,
+```
+"toolspath": <absolute path of tools.py of this project>
+``` 
+
+
 ## Current functions
 
 * [map_value](#1-map_value)
@@ -47,5 +57,6 @@ Decorate the given fig and ax to the following aesthetic.
 **ax** :    Ax object of the graph
 
 **return**: None
+
 
 
